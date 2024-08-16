@@ -1,0 +1,74 @@
+body {
+    background-image: url('/static/images/background.jpg');
+    background-size: cover; /* Ensure the background image covers the entire screen */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps background fixed while scrolling */
+}
+
+.yes {
+    color: green;
+}
+
+.no {
+    color: red;
+}
+
+#result {
+    margin-bottom: 50px;
+    margin-left:32.7%;
+    background-color: white;
+    width: 80%; /* Responsive width */
+    max-width: 250px; /* Maximum width for larger screens */
+    border: solid black 5px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.info {
+    color: blue;
+}
+
+#elements {
+    margin-left: 0px;
+}
+
+#content {
+    width: 90%; /* Responsive width */
+    max-width: 700px; /* Maximum width */
+    resize: none;
+    height: 150px;
+    padding: 5px 20px;
+    border: black 3px solid;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#detect-button {
+    width: 100px;
+    margin-top: 20px;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+    #result {
+        width: 90%; /* Adjusts width on smaller screens */
+        margin-left: 50px;
+        margin-right: auto;
+    }
+
+    #content {
+        width: 100%; /* Full width for small screens */
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    
+}
+
