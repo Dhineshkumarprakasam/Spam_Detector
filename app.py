@@ -16,8 +16,8 @@ def hello():
     if request.method=="POST":
         content=request.form.get('content')
     
-        model_path = "models\\spam_prediction_model"
-        vectorizer_path = "models\\vectorizer"
+        model_path = "static\\models\\spam_prediction_model"
+        vectorizer_path = "static\\models\\vectorizer"
 
         model=joblib.load(model_path)
         v=joblib.load(vectorizer_path)
