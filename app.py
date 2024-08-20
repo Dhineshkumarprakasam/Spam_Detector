@@ -1,5 +1,5 @@
 import requests
-from flask import Flask,render_template,request,url_for
+from flask import Flask,render_template,request
 import pickle
 import os
 import joblib
