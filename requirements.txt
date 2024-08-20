@@ -2,3 +2,5 @@ scikit-learn
 flask
 pandas
 gunicorn
+joblib
+pickle
