@@ -31,8 +31,8 @@ def hello():
 
         percent=model.predict_proba(converted)
 
-        percentage_spam=round(percent[0][1],2)*100
-        percentage_notspam=round(percent[0][0],2)*100
+        percentage_spam=round(percent[0][1]*100,2)
+        percentage_notspam=round(percent[0][0]*100,2)
 
         if(ans[0]==1):
             result="Spam"
