@@ -15,8 +15,9 @@ def index():
 def hello():
     if request.method=="POST":
         content=request.form.get('content')
-        f1_path=os.path.join(os.path.dirname(__file__),'spam_prediction_model.pkl')
-        f2_path=os.path.join(os.path.dirname(__file__),'vectorizer.pkl')
+        f1_path="models/spam_prediction_model.pkl"
+        f2_path="models/vectorizer.pkl"
+        
         with open(f1_path, 'rb') as f1:
             model=joblib.load(f1)
         
