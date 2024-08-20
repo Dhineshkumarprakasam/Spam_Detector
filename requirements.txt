@@ -9,4 +9,4 @@ Werkzeug==3.0.3
 joblib==1.3.2
 gunicorn
 requests
-sklearn
+scikit-learn
