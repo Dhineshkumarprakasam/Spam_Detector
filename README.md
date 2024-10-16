@@ -11,7 +11,13 @@ This is a web-based spam detection application that analyzes input text and clas
 ## Technologies Used
 - **Frontend**: HTML, CSS
 - **Backend**: Python (Flask)
-- **Machine Learning**: Natural Language Processing (NLP) model for text classification
+- **Machine Learning**: Sklearn
+
+## Screenshots
+
+![Home Page](Screenshots/spam-detector-homepage.png)
+*Home Page of the Password Generator*
+
 
 ## Installation
 
