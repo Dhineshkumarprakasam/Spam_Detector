@@ -16,7 +16,6 @@ This is a web-based spam detection application that analyzes input text and clas
 ## Screenshots
 
 ![Home Page](Screenshots/spam-detector-homepage.png)
-*Home Page of the Password Generator*
 
 
 ## Installation
